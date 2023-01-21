@@ -2,10 +2,17 @@
 AndroidFileHost direct download link fetcher.  
 AndroidFileHost 下载直链获取器。  
 
+# Dependency 
+Python requests library.  
+Python requests库。
+```bash
+pip3 install requests
+``` 
+
 # Example
 ```bash
 root@localhost:~ # ./afh.py
-input download id:14871746926876821021
+Input fid:14871746926876821021
 Server name: Germany - mDE1
 Download link: https://mDE1.androidfilehost.com/dl/43KKBYLcbHJGVCpWkJN1LQ/1674391540/14871746926876821021/AOSP13-20220907-KonstaKANG-rpi4.zip
 
